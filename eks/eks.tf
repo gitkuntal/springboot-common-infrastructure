@@ -1,7 +1,7 @@
 
 module "eks" {
   source  = "terraform-aws-modules/eks/aws"
-  version = "~> 20.0"
+  version = "~> 21.8"
   cluster_name    = "${var.project}-${var.environment}"
   cluster_version = "1.31"
   bootstrap_self_managed_addons = true

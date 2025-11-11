@@ -1,6 +1,6 @@
 
 data "aws_route53_zone" "example" {
-  name = "taipajiikun.com"  # Replace with your domain
+  name = "devops4solutions.com"  # Replace with your domain
 }
 
 

@@ -12,11 +12,11 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 6.0" # Allows any minor update within major version 5
+      version = "~> 5.25.0" # Allows any minor update within major version 5
     }
      helm = {
       source = "hashicorp/helm"
-      version = "~>3.0"  # Use the latest version available
+      version = "~>2.11.0"  # Use the latest version available
     }
   }
 }

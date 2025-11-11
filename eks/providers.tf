@@ -16,7 +16,7 @@ terraform {
     }
      helm = {
       source = "hashicorp/helm"
-      version = "~>2.11.0"  # Use the latest version available
+      version = "~>3.0"  # Use the latest version available
     }
   }
 }

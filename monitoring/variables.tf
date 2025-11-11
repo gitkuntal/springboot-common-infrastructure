@@ -9,7 +9,7 @@ variable "project" {
 
 variable "SOURCE_GMAIL_ID"{
   description = "Source GMAIl Id"
-  default = "devops4solutions@gmail.com"
+  default = "kuntal.sarkar08@gmail.com"
 }
 variable "SOURCE_AUTH_PASSWORD"{
   description = "Source Auth Password"
@@ -17,7 +17,7 @@ variable "SOURCE_AUTH_PASSWORD"{
 }
 variable "DESTINATION_GMAIL_ID"{
   description = ""
-  default ="khandelwal12nidhi@gmail.com"
+  default ="paramita.sarkar08@gmail.com"
 }
 
 variable "domain_name" {
